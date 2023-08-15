@@ -14,11 +14,224 @@
     <link rel="icon" href="img/favicon-star.ico" />
     <link rel="stylesheet" href="style.css">
 
+      <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4a5f50cc1d.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
-    
-    <h3>hi</h3>
-    
+      <nav id="navbar"></nav>
+      <div class="navbar__logo">
+        <i class="fas fa-star-of-life"></i>
+        <a href="#">ig kim</a>
+      </div>
+      
+      <ul class="navbar__menu">
+        <!-- 🍀dataseet, scrollintoview -->
+        <li class="navbar__menu__item active" data-link="#home">home</li>
+        <li class="navbar__menu__item" data-link="#aaa">aaa</li>
+        <li class="navbar__menu__item" data-link="#bbbb">bbbb</li>
+        <li class="navbar__menu__item" data-link="#ccc">ccc</li>
+        <li class="navbar__menu__item" data-link="#ddd">ddd</li>
+      </ul>
+
+      <!-- toggle -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+
+      </button>
+
+      <!-- home -->
+      <section id="home">
+        <div class="home__container">
+          <img src="./img/avatar.jpg" alt="ig photo">
+          <h1 class="home__title">
+            <span style="color: red;">
+              hello <br>
+              ig kim
+            </span>
+          </h1>
+          <h2 class="home__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+          </h2>
+          <button class="home__contact">contact</button>
+        </div>
+
+      </section>
+
+      <!-- about -->
+      <!-- id, class gogo -->
+      <section class="section" id="about">
+        <div class="section__container">
+          <h1>about me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
+          <div class="about__majors">
+            <div class="major">
+              <div class="major__icon"><i class="fab fa-html5"></i></div>
+              <h2 class="major__title">html</h2>
+            </div>
+            <div class="major">
+              <div class="major__icon"><i class="fab fa-html5"></i></div>
+              <h2 class="major__title">html</h2>
+            </div>
+            <div class="major">
+              <div class="major__icon"><i class="fab fa-html5"></i></div>
+              <h2 class="major__title">html</h2>
+            </div>
+            <div class="major">
+              <div class="major__icon"><i class="fab fa-html5"></i></div>
+              <h2 class="major__title">html</h2>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- jobs -->
+        <div class="about__jobs">
+          <div class="job">
+            <img src="./img/iu (11).jpg" alt="" class="job__logo">
+
+            <div class="job__description">
+              <p class="job__name">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
+              </p>
+              <div class="job--period">2011</div>
+            </div>
+          </div>
+          <div class="job">
+            <img src="./img/iu (11).jpg" alt="" class="job__logo">
+
+            <div class="job__description">
+              <p class="job__name">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
+              </p>
+              <div class="job--period">2011</div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+
+
+
+
+       <!-- skills -->
+       <secton id="skills" class="section">
+        <div class="section__container">
+          <h1>skills</h1>
+          <h2>skills, attributes</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Necessitatibus vel fugit optio, dignissim</p>
+        </div>
+
+        <div class="skillset">
+          <div class="skillset__left">
+
+            <h3 class="skillset__title">skills</h3>
+
+            <div class="skill">
+              <div class="skill__description">
+                <span>html</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <!-- 👉js -->
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill__description">
+                <span>html</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <!-- 👉js -->
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill__description">
+                <span>html</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <!-- 👉js -->
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>html</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <!-- 👉js -->
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">tools</h3>
+              <ul>
+                <li><span>hi</span></li>
+                <li><span>hi</span></li>
+                <li><span>hi</span></li>
+                <li><span>hi</span></li>
+            
+              </ul>
+            </div>
+
+            <div class="etc">
+              <h3 class="skillset__title">etc</h3>
+              <ul class="etc__list">
+                <li>git</li>
+                <li>git</li>
+                <li>git</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       </secton>
+
+       <section id="work"></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="main.js"></script>
 </body>
 </html>

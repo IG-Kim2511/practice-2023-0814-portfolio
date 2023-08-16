@@ -297,3 +297,63 @@ p{
 }
 
 /* work */
+
+/* flex */
+.parents{
+    flex-wrap: wrap;
+    gap:1.5rem;
+    justify-content: baseline;
+    align-items: center;
+}
+.child{
+    /* flex: 1; */
+    flex: 1 1 30rem;
+   
+}
+.category__btn{
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: inherit;
+    padding: 8px 48px;
+}
+
+.category__count{
+    width: 24px;
+    height: 24px;
+
+    line-height: 24px;
+
+    background-color: blue;
+    border-radius: 50%;
+
+    display: inline-block;
+
+    position: relative;
+    top: -20%;
+    left: 4px;
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+.work__projects{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+/* js 70 */
+
+.work__projects{
+    opacity: 0.6;
+    transform: scale(0.9) translateY(50px);
+}
+
+.project{
+
+    background-color: yellow;
+    width: 280px;
+}

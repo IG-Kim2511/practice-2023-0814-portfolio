@@ -354,6 +354,111 @@ p{
 
 .project{
 
-    background-color: yellow;
+    
     width: 280px;
+
+    margin: 2px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+}
+
+/* css img */
+
+.project__img{
+  float: left;
+  width:  200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* js68 */
+.project.invisible{
+   display: none;
+}
+
+.project__description{
+   width: 100%;
+   height: 100%;
+   background-color: #2ec4b6;
+
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   /*  */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   /*  */
+   opacity: 0;
+   transform: translateY(-10px);
+   
+}
+
+/*  */
+
+.project:hover .project__description{
+   opacity: 0.8;
+   transform: translateY(0px);
+}
+
+.project__description h3,
+.project__description span{
+   color: white;
+}
+
+/* after */
+
+.project__description h3:after{
+   background-color: #cbf3f0;
+
+   content: "";
+   display: block;
+   width: 25px;
+   height: 2px;
+
+   position: relative;
+   left: 50%;
+   margin-left: -12px;
+   margin-top: 8px;
+}
+
+/* testi */
+#testimonials{
+   background-color: #fe918d;
+}
+
+/* arrow */
+
+.arrow-up{
+   background-color: yellow;
+
+   width: 70px;
+   height: 70px;
+
+   font-size: 50px;
+
+   position: fixed;
+   bottom: 50px;
+   right: 50px;
+
+   border-radius: 50%;
+
+   opacity: 0.3;
+
+   pointer-events: none;
+
+
+}
+
+.arrow-up.visible{
+    opacity: 1;
+    pointer-events: auto;
 }
